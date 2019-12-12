@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSKnightRider</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Queue</title>
+
+    <style>
+
+        body{
+            background-color: black;
+        }
+        #queue{
+            text-align: center;
+            height: 100px;
+            max-width: 800px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        div#queue .d{
+            width: 100px;
+            height: 50px;
+            background-color: black;
+            /*margin: 5px;*/
+            display: inline-block;
+            border-radius: 5px;
+            border: black 2px;
+        }
+
+        h1{
+            color: #04c2c9;
+            font-weight: bold;
+            font-family: "Viner Hand ITC";
+            text-align: center;
+            top: 130px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        hr{
+            border-color: #04c2c9;
+        }
+    </style>
+</head>
+<body>
+
+<h1>~Java Script Knight Rider~</h1>
+<div id="queue">
+    <hr>
+    <div id="first" class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div id="last" class="d"></div>
+    <hr>
+</div>
+
+
+<script src="../../assets/js/jquery-3.4.1.min.js"></script>
+<script>
+    var colors = ["red","black","black","black","black","black"];
+    var count=0;
+    setInterval(changeColor, 100);
+    function changeColor() {
+        for (var i in colors){
+            $($('.d')[i]).css('background-color',colors[i]);
+        }
+        count++;
+
+        if(colors.length<=count){
+            var first = colors.shift();
+            colors.push(first);
+            if (count==10){
+                count=0;
+            }
+        }else{
+            var last = colors.pop();
+            colors.unshift(last);
+        }
+    }
+    /*var colors = ["red","black","black","black","black","black"];
+    changeColor();
+    setInterval(changeColor, 500);
+    function changeColor() {
+        var last = colors.pop();
+        colors.unshift(last);
+
+        for (var i in colors){
+            $($('.d')[i]).css('background-color',colors[i]);
+        }
+
+        if ($('#last').css('background-color')=="rgb(255, 0, 0)"){
+            // var colors = ["red","black","black","black","black","black"];
+            clearInterval(changeColor());
+            setInterval(reverse, 500);
+        }
+    }
+
+    function reverse() {
+        var first = colors.shift();
+        colors.push(first);
+
+        for (var b in colors){
+            $($('.d')[b]).css('background-color',colors[b]);
+        }
+
+        if ($('#first').css('background-color')=="rgb(255, 0, 0)"){
+            // var colors = ["red","black","black","black","black","black"];
+            clearTimeout(reverse());
+            setInterval(changeColor, 500);
+        }
+    }
+*/
+
+    </script>
+</body>
+</html>

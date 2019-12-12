@@ -1,0 +1,447 @@
+@media all and (max-width:320px ){
+    body > header {
+        height: 15vh ;
+    }
+    header > ul {
+        top: 10px ;
+        padding: 0 ;
+        right: 17px ;
+    }
+    header > ul > li {
+        padding: 10px ;
+        font-size: 35px ;
+    }
+    section>div:first-child {
+        height: 155vh ;
+        padding-top: 15vh ;
+    }
+    /*section>div{*/
+        /*height: 155vh ;*/
+    /*}*/
+    body>main>section>div:first-child>img {
+        height: 70vh ;
+        margin-top: 16vw ;
+        margin-left: 50vw ;
+    }
+    body>main>section>div:first-child>h1 {
+        font-size: 12vh ;
+    }
+    body>main>section>div:first-child>h3 {
+        font-size: 7vh ;
+    }
+    .fa-facebook{
+        margin-left: 27vw !important;
+    }
+    section>div:first-child>i {
+        font-size: 7vh;
+        margin-left: 10vw;
+    }
+
+    div>h1 {
+        font-size: 9vh ;
+    }
+    p{
+        font-size: 5vh;
+    }
+    #tblDetail>tbody>tr>td{
+        font-size: 4vh;
+    }
+    #a_image{
+        margin-left: 0;
+        width: 0vw ;
+    }
+    body>main>section>div:nth-child(3)>div {
+        grid-template-rows: repeat(4, 1fr) ;
+        grid-template-columns: repeat(2, 1fr) ;
+    }
+    .as {
+        width: 78vw ;
+        margin: 2vw ;
+    }
+    .as>img {
+        width: 78vw ;
+    }
+    #tblSkill {
+        margin-left: 18vw
+    }
+    #tblSkill>tbody>tr>td {
+        font-size: 6vh;
+    }
+    .Slider {
+        width: 100vw;
+    }
+    body>main>section>div:last-child>div {
+        display: block;
+    }
+    form {
+        margin-left: 12vw;
+        height: 114vh;
+    }
+    .form-control {
+        height: 56px;
+        width: 147vw;
+        font-size: 30px;
+    }
+    #message {
+        height: 325px;
+        width: 147vw;
+    }
+    input{
+        font-size: 150%;
+    }
+    footer{
+        width: 172%;
+    }
+    section>div{
+        width: 172% ;
+    }
+    #final{
+        display: flex;
+    }
+    .fas {
+        font-size: 10vh;
+        margin: 10vw;
+    }
+    .fa-map-marker-alt{
+        margin-left: 45vw;
+    }
+    #final>h3{
+        font-size: 0;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 375px){
+    body > header {
+        height: 15vh ;
+    }
+    header > ul {
+        top: 10px ;
+        padding: 0 ;
+        right: 17px ;
+    }
+    header > ul > li {
+        padding: 10px ;
+        font-size: 35px ;
+    }
+    section>div:first-child {
+        height: 155vh ;
+        padding-top: 15vh ;
+    }
+    /*section>div{*/
+        /*height: 155vh ;*/
+    /*}*/
+    body>main>section>div:first-child>img {
+        height: 70vh ;
+        margin-top: 16vw ;
+        margin-left: 50vw ;
+    }
+    body>main>section>div:first-child>h1 {
+        font-size: 12vh ;
+    }
+    body>main>section>div:first-child>h3 {
+        font-size: 7vh ;
+    }
+    .fa-facebook{
+        margin-left: 24vw !important;
+    }
+    section>div:first-child>i {
+        font-size: 7vh;
+        margin-left: 10vw;
+    }div>h1 {
+         font-size: 9vh ;
+     }
+    p{
+        font-size: 5vh;
+    }
+    #tblDetail>tbody>tr>td{
+        font-size: 4vh;
+    }
+    #a_image{
+        margin-left: 0;
+        width: 0vw ;
+    }
+    body>main>section>div:nth-child(3)>div {
+        grid-template-rows: repeat(2, 1fr) ;
+        grid-template-columns: repeat(2, 1fr) ;
+    }
+    .as {
+        width: 66vw ;
+        margin: 2vw ;
+    }
+    .as>img {
+        width: 66vw ;
+    }
+    #tblSkill>tbody>tr>td {
+        font-size: 6vh;
+    }
+    .Slider {
+        width: 100vw;
+    }
+    #tblSkill{
+        margin-left: 14vw
+    }
+    body>main>section>div:last-child>div {
+        display: block;
+    }
+    form {
+        margin-left: 6vw;
+        height: 114vh;
+    }
+    .form-control {
+        height: 56px;
+        width: 140vw;
+        font-size: 30px;
+    }
+    #message {
+        height: 325px;
+        width: 140vw;
+    }
+    footer{
+        width: 153% !important;
+    }
+    section>div{
+        width: 153% !important;
+    }
+    #final{
+        display: flex;
+    }
+    .fas {
+        font-size: 10vh;
+        margin: 10vw;
+    }
+    .fa-map-marker-alt{
+        margin-left: 45vw;
+    }
+    #final>h3{
+        font-size: 0;
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 425px){
+    body > header {
+        height: 15vh ;
+    }
+    header > ul {
+        top: 10px ;
+        padding: 0 ;
+        right: 17px ;
+    }
+    header > ul > li {
+        padding: 10px ;
+        font-size: 35px ;
+    }
+    section>div:first-child {
+        height: 155vh ;
+        padding-top: 15vh ;
+    }
+    /*section>div{*/
+        /*height: 155vh ;*/
+    /*}*/
+    body>main>section>div:first-child>img {
+        height: 70vh ;
+        margin-top: 6vw;
+        margin-left: 46vw;
+    }
+    body>main>section>div:first-child>h1 {
+        font-size: 12vh ;
+    }
+    body>main>section>div:first-child>h3 {
+        font-size: 7vh ;
+    }
+    .fa-facebook{
+        margin-left: 20vw !important;
+    }
+    section>div:first-child>i {
+        font-size: 7vh;
+        margin-left: 10vw;
+    }
+    div>h1 {
+         font-size: 9vh ;
+    }
+    p{
+        font-size: 5vh;
+    }
+    #tblDetail>tbody>tr>td{
+        font-size: 4vh;
+    }
+    #a_image {
+        margin-left: 0 !important;
+        width: 0vw !important;
+    }
+    body>main>section>div:nth-child(3)>div {
+         grid-template-rows: repeat(4, 1fr) ;
+         grid-template-columns: repeat(2, 1fr) ;
+     }
+    .as {
+        width: 63vw ;
+        margin: 2vw ;
+    }
+    .as>img {
+        width: 63vw ;
+    }
+    #tblSkill>tbody>tr>td {
+        font-size: 6vh;
+    }
+    .Slider {
+        width: 100vw;
+    }
+    #tblSkill {
+        margin-left: 11vw
+    }
+    body>main>section>div:last-child>div {
+         display: block;
+    }
+    form {
+        margin-left: 6vw;
+        height: 114vh;
+    }
+    .form-control {
+        height: 56px;
+        width: 130vw;
+        font-size: 30px;
+    }
+    #message {
+        height: 325px;
+        width: 130vw;
+    }
+    footer{
+        width: 141% !important;
+    }
+    section>div{
+        width: 141% !important;
+    }
+    #final{
+        display: flex;
+    }
+    .fas {
+        font-size: 10vh;
+        margin: 10vw;
+    }
+    .fa-map-marker-alt{
+        margin-left: 34vw;
+    }
+    #final>h3{
+        font-size: 0;
+    }
+}
+
+
+@media all and (min-width: 426px) and (max-width: 768px){
+    body>main>section>div:first-child>img{
+        margin-left: 59vw !important;
+    }
+    .fa-facebook {
+        margin-left: 32vw !important;
+    }
+    #a_image{
+        margin-left: 7vw;
+    }
+    p{
+        font-size: 20px;
+    }
+    .as{
+        height: 50vh;
+        width: 29vw;
+    }
+    .as>img{
+        width: 29vw;
+    }
+    #tblDetail{
+        width: 100%;
+        font-size: 21px;
+    }
+    .Slider {
+        width: 85vw;
+    }
+    form {
+        margin-left: 10vw;
+        width: 85vw;
+    }
+    .form-control {
+        width: 80vw;
+        font-size: 20px;
+    }
+    #message {
+        width: 80vw;
+    }
+    footer{
+        width: 141% !important;
+    }
+    section>div{
+        width: 141% !important;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+    /*body>main>section>div:first-child>img{*/
+        /*margin-left: 63vw !important;*/
+    /*}*/
+    /*main>section>div>i:first-child{*/
+        /*margin-left: 33vw;*/
+    /*}*/
+    .fa-facebook {
+        margin-left: 14vw !important;
+    }
+    /*p {*/
+        /*font-size: 4vh;*/
+    /*}*/
+    /*#tblDetail{*/
+        /*font-size: 2vw;*/
+    /*}*/
+    /*#tblSkill {*/
+        /*margin-left: 42vw;*/
+    /*}*/
+    /*.form-control {*/
+        /*width: 60vw;*/
+    /*}*/
+    /*#message {*/
+        /*width: 60vw;*/
+    /*}*/
+    /*footer{*/
+        /*width: 141% !important;*/
+    /*}*/
+    /*section>div{*/
+        /*width: 141% !important;*/
+    /*}*/
+}
+@media all and (min-width: 1025px) and (max-width: 1440px){
+    .fa-facebook {
+        margin-left: 16vw !important;
+    }
+    p{
+        font-size: larger !important;
+    }
+    #tblDetail{
+        font-size: larger !important;
+    }
+}
+@media all and (min-width: 1141px) and (max-width: 2560px){
+    header > ul > li {
+        font-size: 7vh ;
+    }
+    .fa-facebook {
+        margin-left: 16vw !important;
+    }
+    #a_image {
+        margin-left: 14vw;
+    }
+    p{
+        font-size: xx-large;
+    }
+    #tblDetail{
+        font-size: xx-large;
+    }
+    #tblSkill>tbody>tr>td{
+        font-size: 4vh;
+    }
+    .Slider{
+        width: 50vw;
+        height: 5vh;
+        margin: 0;
+    }
+    .InSlide{
+        height: 5vh;
+        font-size: 4vh;
+    }
+
+}

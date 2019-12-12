@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    cursor: default;
+    /*background-image: url("assets/img/Diamond-Fire.png") ;*/
+    background-color: rgb(29, 29, 29);
+}
+
+.header{
+    background-color: #1B242F;
+    color: #fff;
+    border-bottom: 3px solid #04c2c9;
+    box-shadow: 0 -30px 20px 30px #04c2c9;
+    /*position: fixed;*/
+    top: 0;
+    bottom: inherit;
+    left: 0;
+    z-index: 20;
+    margin: auto;
+    width: 99%;
+    height: 70px;
+    left: 0;
+    right: 0;
+}
+.logo{
+    float: left;
+    text-transform: uppercase;
+    display: inline;
+    font-size: 35px;
+    font-family: 'Lato',"Consolas";
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    margin: auto;
+    left: 20px;
+    top: 18px;
+}
+.menu{
+    float: right;
+    line-height: 100px;
+    display: inline;
+    font-size: 40px;
+    font-family: 'Lato',"Consolas";
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+.menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+    color: white;
+    z-index: 1;
+    text-decoration: none;
+}
+
+
+.menu a:hover{
+    color: #04c2c9;
+}
+/*/////////////////////////////////projects//////////////////////////////////////////*/
+#assTit{
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    margin: auto;
+    top: 2250px;
+    font-size: 30px;
+    font-family: "Viner Hand ITC";
+    color: dimgray;
+}
+#assignments{
+    position: absolute;
+    margin: auto;
+    width: 1130px;
+    height: 180px;
+    top: 110px;
+    color: dimgray;
+    right: 0;
+    left: 0;
+}
+#asspane{
+    width: 1130px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.assCard{
+    position: relative;
+    width: 230px;
+    height: 180px;
+    color: black;
+    transform: translateY(0);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+}
+.face{
+    width: 230px;
+    height: 180px;
+    transition: 0.5s;
+}
+.face1{
+    border-width: -1px;
+    border-style: solid;
+    border-color: #04c2c9;
+    border-image: initial;
+    box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    transform: translateY(0);
+    background: rgb(72, 66, 65);
+    border-radius: 10px;
+}
+.assCard:hover .face1{
+    transform: translateY(-190px);
+}
+.face2{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 0;
+}
+.assCard:hover .face2{
+    transform: translateY(0);
+}
+@keyframes animate1 {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes animate2 {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+    }
+}
+
+@keyframes animate3 {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes animate4 {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+    }
+}
+#assButton{
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    width: 180px;
+    height: 45px;
+    top: 250px;
+    text-align: center;
+    right: 0;
+    left: 0;
+    font-family: Candara;
+    font-size: 17px;
+    color: #696969;
+    background: none;
+    transition: 0.3s;
+    border: 3px solid #696969;
+}
+#assButton a{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+#assButton:hover{
+    border: solid #04c2c9;
+    color: #04c2c9;
+    background: none;
+}
+.assimg{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+/*//////////////////////////////////////////////////////////////////////////*/
+/*#imagegOne{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    width: 120%;
+}*/
+/*//////////////////////////////////////////////////////////////////////////*/
+.assTit{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: #04c2c9;
+}
+.assUsing{
+    font-family: Candara;
+    font-size: 15px;
+    color: dimgrey;
+}
+.viewButton{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    width: 100px;
+    height: 40px;
+    border: 3px solid dimgray;
+    background: white;
+    color: dimgray;
+    font-family: sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.viewButton a{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.viewButton:hover{
+    border: solid #04c2c9;
+    color: #04c2c9;
+}
+.assTop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right,dimgrey,dimgrey);
+    animation: animate1 2s linear infinite;
+    animation-delay: 1s;
+}
+.assRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to bottom,dimgrey,dimgrey);
+    animation: animate2 2s linear infinite;
+}
+.assBottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to left,dimgrey,dimgrey);
+    animation: animate3 2s linear infinite;
+    animation-delay: 1s;
+}
+.assLeft{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient(to top,dimgrey,dimgrey);
+    animation: animate4 2s linear infinite;
+}
+.empty{
+    position: relative;
+    font-size: 25px;
+    font-family: "Trebuchet MS";
+    top: 50px;
+    color: #04c2c9;
+}
+
+/*/////////////////////////////////footer//////////////////////////////////////////*/
+footer{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+    top: 420px;
+    background: black;
+}
+footer div{
+    position: relative;
+    top: 20px;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    position: relative;
+    display: inline;
+    left: -20px;
+    padding: 20px;
+    font-size: 20px;
+    color: dimgrey;
+}
+footer div ul li a{
+    color: dimgrey;
+}
+footer div ul li a :hover{
+    color: #04c2c9;
+}
+#thanx{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #4b4b4b;
+}
+#reserv{
+    font-family: Calibri;
+    font-size: 16px;
+    color: dimgrey;
+}

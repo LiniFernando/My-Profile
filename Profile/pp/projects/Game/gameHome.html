@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ghosts in Cards</title>
+    <link rel="icon" href="img/ghost.png" type="img/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="gameCss.css">
+
+    <style>
+        #Home{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        #HomeImg{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        #tit{
+            top: 140px;
+            right: 230px;
+            position: absolute;
+            color: red;
+            font-size: 95px;
+            font-family: Chiller;
+        }
+        #ghostDiv {
+            width: 23%;
+            height: 69%;
+            position: absolute;
+            z-index: 10;
+            top: 169px;
+            left: 123px;
+            background: url(/img/ghost.png);
+        }
+        #ghostDiv>img{
+            width: 100%;
+            height: 100%;
+        }
+        #ghostDiv:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background: url(img/ghost.png);
+            opacity: .5;
+            background-size: cover;
+            mix-blend-mode: hard-light;
+            animation: animate .5s linear infinite;
+        }
+        #ghostDiv:hover:before {
+            animation: animate 10s linear infinite;
+        }
+        #fenchDiv{
+            bottom: 0;
+            width: 24%;
+            height: 45%;
+            position: absolute;
+            z-index: 10;
+            right: 273px;
+            background: url(/img/btnFench.png);
+        }
+        #fenchDiv>img{
+            width: 100%;
+            height: 100%;
+        }
+
+        #playBtnDiv{
+            bottom: 187px;
+            width: 24%;
+            height: 15%;
+            position: absolute;
+            z-index: 10;
+            right: 273px;
+            background: url(/img/btnPlay.png);
+            animation: bellshake 3s cubic-bezier(.36,.07,.19,.97) both infinite;
+            backface-visibility: hidden;
+            transform-origin: top center;
+        }
+        #playBtnDiv>img{
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+        #playBtnDiv a{
+            position: absolute;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        #playBtnDiv:hover{
+            animation: bellshake 20s cubic-bezier(.36,.07,.19,.97) both infinite;
+            backface-visibility: hidden;
+            transform-origin: top center;
+        }
+        @keyframes bellshake {
+            0% { transform: rotate(0); }
+            15% { transform: rotate(5deg); }
+            30% { transform: rotate(-5deg); }
+            45% { transform: rotate(4deg); }
+            60% { transform: rotate(-4deg); }
+            75% { transform: rotate(2deg); }
+            85% { transform: rotate(-2deg); }
+            92% { transform: rotate(1deg); }
+            100% { transform: rotate(0); }
+        }
+        @keyframes animate {
+            0%
+            {
+                background-position: 0 -32px;
+                filter: hue-rotate(0deg);
+            }
+            10%
+            {
+                background-position: 25px -32px;
+            }
+            20%
+            {
+                background-position: 0 -32px;
+            }
+            30%
+            {
+                background-position: -25px -32px;
+            }
+            40%
+            {
+                background-position: 0 -20px;
+            }
+            50%
+            {
+                background-position:  25px -20px;
+            }
+            60%
+            {
+                background-position: 0 -20px;
+            }
+            70%
+            {
+                background-position: -25px -20px;
+            }
+            80%
+            {
+                background-position: 0 -32px;
+            }
+            100%
+            {
+                background-position: 0 -32px;
+                filter: hue-rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<audio  src="audio/radionoise.mp3" autoplay loop>
+    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+    <embed src="audio/radionoise.mp3" width="180" height="90" hidden="true"/>
+</audio>
+
+    <!--/////////////////////////welcome Page//////////////////////////-->
+
+<div id="Home">
+    <img id="HomeImg" src="img/bg.jpg"/>
+    <h1 id="tit">Ghosts in Cards</h1>
+    <div id="ghostDiv">
+        <img id="ghost" src="img/ghost.png"/>
+    </div>
+    <div id="fenchDiv">
+        <img src="img/btnFench.png"/>
+    </div>
+    <div id="playBtnDiv">
+        <img src="img/btnPlay.png">
+        <a href="level1.html"></a>
+    </div>
+</div>
+
+<script src="../../assets/js/code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="../../assets/js/bootstrap.min.js" ></script>
+</body>
+</html>

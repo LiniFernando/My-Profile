@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Queue</title>
+
+    <style>
+        body{
+            background-color: black;
+        }
+        #queue{
+            text-align: center;
+            height: 100px;
+            max-width: 800px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        div#queue .d{
+            width: 100px;
+            height: 50px;
+            background-color: #04c2c9;
+            margin: 5px;
+            display: inline-block;
+            border-radius: 5px;
+            border: black 2px;
+        }
+
+        h1{
+            color: #04c2c9;
+            font-weight: bold;
+            font-family: "Viner Hand ITC";
+            text-align: center;
+            top: 130px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+        hr{
+            border-color: #04c2c9;
+        }
+    </style>
+</head>
+<body>
+
+<h1>~Java Script Queue~</h1>
+<div id="queue">
+    <hr>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <div class="d"></div>
+    <hr>
+</div>
+
+
+<script src="assest/jquery-3.4.1.min.js"></script>
+<script>
+
+    var colors = ["red","orange","yellow","green","blue","purple"];
+    changeColor();
+    setInterval(changeColor, 600);
+    function changeColor() {
+        var last = colors.pop();
+        colors.unshift(last);
+
+        for (var i in colors){
+            $($('.d')[i]).css('background-color',colors[i]);
+        }
+    }
+</script>
+</body>
+</html>

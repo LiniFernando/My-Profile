@@ -1,0 +1,19 @@
+/*.navbar-nav.navbar-center {*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*transform: translatex(-50%);*/
+/*}*/
+
+
+@media (min-width: 768px){
+.navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}}
+.card:hover{
+    box-shadow: 0px 0px 220px -106px black;
+}
+.card{
+    box-shadow: 0px 0px 20px 3px black;
+}

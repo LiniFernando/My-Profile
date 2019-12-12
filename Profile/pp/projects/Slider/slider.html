@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <style>
+        #slider {
+            width: 900px;
+            height: 400px;
+            position: absolute;
+            border: 2px solid black;
+            overflow: hidden;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #slider > main {
+            position: absolute;
+            width: 400%;
+            height: 100%;
+            display: flex;
+            animation: slider 5s infinite alternate-reverse;
+        }
+
+        #slider > main > div {
+            width: 100%;
+            height: 100%;
+            background: red;
+        }
+
+        #slider > main > div:first-child {
+            background: url("img/light-purple-flowers-1080p-HD_wallpapers.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #slider > main > div:nth-child(2) {
+            background: url("img/0ef4a006bb086f3d5288615f5b43c2a7.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #slider > main > div:nth-child(3) {
+            background: url("img/Wallpaper_1080p_67.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        #slider > main > div:nth-child(4) {
+            background: url("img/windows_8.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+
+        @keyframes slider {
+            from {
+                transform: translateX(-0%);
+            }
+            to {
+                transform: translateX(-75%);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="slider">
+    <main>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,2335 @@
+/*//////////////////////////////////////////////all and (max-width: 375px)/////////////////////////////////////////////////*/
+@media all and (max-width: 375px){
+    #topImg{
+        visibility: hidden;
+    }
+    #i{
+        visibility: hidden;
+    }
+    #m{
+        visibility: hidden;
+    }
+    #aye{
+        visibility: hidden;
+    }
+    #proHr{
+        visibility: hidden;
+    }
+    #pro{
+        visibility: hidden;
+    }
+    #aboutTit{
+        position: absolute;
+        margin: auto;
+        top: 740px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #about{
+        position: absolute;
+        margin: auto;
+        top: 800px;
+        width: 90%;
+        height: 500px;
+        left: 0;
+        right: 0;
+        background: white;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    #para{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 50px;
+        font-size: 18px;
+        font-family: "Trebuchet MS";
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        color: #212324;
+    }
+    #skillTit{
+        position: absolute;
+        margin: auto;
+        top: 1350px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #skill{
+        position: absolute;
+        margin: auto;
+        top: 1400px;
+        width: 90%;
+        height: 350px;
+        right: 0;
+        left: 0;
+        background: white;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    #skill ul{
+        list-style: none;
+        position: absolute;
+        color: black;
+        width: 90%;
+        top: 15px;
+        left: -20px;
+        margin: auto;
+    }
+    #skill ul li{
+        margin: 20px;
+    }
+    .skillName{
+        font-family: Calibri;
+    }
+    .bar span:nth-child(1){
+        height: 2px;
+        float: left;
+    }
+    #projectTit{
+        position: absolute;
+        margin: auto;
+        top: 2650px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #proPane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        height: 180px;
+        top: 2750px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    .card{
+        position: absolute;
+        margin: auto;
+        background: snow;
+        width: 230px;
+        height: 180px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .card:hover{
+        transform: rotateY(180deg);
+    }
+    .front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        transform: rotateY(0deg);
+        overflow: hidden;
+    }
+    .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        overflow: hidden;
+        transform: rotateY(180deg);
+    }
+    #one{
+        left: 0;
+        right: 0;
+    }
+    #two{
+        left: 0;
+        right: 0;
+        top: 190px;
+    }
+    #three{
+        left: 0;
+        right: 0;
+        top: 380px;
+    }
+    #four{
+        left: 0;
+        right: 0;
+        top: 570px;
+    }
+    #imgKnightRider{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -15px;
+    }
+    #imgCarAnimation{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -45px;
+    }
+    .inback{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background: #eeeeee;
+        border: solid #ff253a;
+        color: #ff253a;
+    }
+    .button a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .title {
+        color: #ff253a;
+        font-size: 20px;
+    }
+    .using{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to right,red,orange);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate1 {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    .right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to bottom,red,orange);
+        animation: animate2 2s linear infinite;
+    }
+    @keyframes animate2 {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to left,red,orange);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate3 {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    .left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to top, red, orange);
+        animation: animate4 2s linear infinite;
+    }
+    @keyframes animate4 {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+    #proButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 3550px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        background: none;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #proButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #proButton:hover{
+        border: solid #ff253a;
+        color: #ff253a;
+        background: white;
+    }
+    #assTit{
+        position: absolute;
+        margin: auto;
+        top: 3650px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #assignments{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        height: 180px;
+        top: 3750px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    #asspane{
+        width: 100%;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        display: inline-block;
+    }
+    .assCard{
+        position: relative;
+        width: 230px;
+        height: 180px;
+        color: black;
+        transform: translateY(0);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+        margin-block: 10px;
+    }
+    .face{
+        width: 230px;
+        height: 180px;
+        transition: 0.5s;
+    }
+    .face1{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(0);
+        background: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .assCard:hover .face1{
+        transform: translateY(-190px);
+    }
+    .face2{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: white;
+        top: 0;
+    }
+    .assCard:hover .face2{
+        transform: translateY(0);
+    }
+    #assButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 800px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        background: none;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #assButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #assButton:hover{
+        border: solid #ff253a;
+        color: #ff253a;
+        background: none;
+    }
+    #imgOne{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        width: 120%;
+    }
+    .assTit{
+        font-family: sans-serif;
+        font-size: 22px;
+        color: #ff253a;
+    }
+    .assUsing{
+        font-family: Candara;
+        font-size: 15px;
+        color: dimgrey;
+    }
+    .viewButton{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .viewButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .viewButton:hover{
+        border: solid #ff253a;
+        color: #ff253a;
+    }
+    .assTop{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,dimgrey,dimgrey);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assRight{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to bottom,dimgrey,dimgrey);
+        animation: animate2 2s linear infinite;
+    }
+    .assBottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left,dimgrey,dimgrey);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assLeft{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to top,dimgrey,dimgrey);
+        animation: animate4 2s linear infinite;
+    }
+    .empty{
+        position: relative;
+        font-size: 25px;
+        font-family: "Trebuchet MS";
+        top: 50px;
+        color: #ff253a;
+    }
+    footer{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 200px;
+        top: 4700px;
+        background: black;
+    }
+    footer div{
+        position: relative;
+        top: 20px;
+    }
+    footer div ul{
+        list-style: none;
+    }
+    footer div ul li{
+        position: relative;
+        display: inline;
+        left: -20px;
+        padding: 20px;
+        font-size: 20px;
+        color: dimgrey;
+    }
+    footer div ul li a{
+        color: dimgrey;
+    }
+    footer div ul li a :hover{
+        color: #04c2c9;
+    }
+    #thanx{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #4b4b4b;
+    }
+    #reserv{
+        font-family: Calibri;
+        font-size: 16px;
+        color: dimgrey;
+    }
+}
+
+/*//////////////////////////////////////////////376px-425px/////////////////////////////////////////////////*/
+@media all and (min-width: 376px) and (max-width: 425px){
+    #topImg{
+        visibility: hidden;
+    }
+    header{
+        position: absolute;
+        margin: auto;
+        width: 99%;
+        top: 20px;
+        height: 70px;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        box-shadow: 3px 3px 10px -4px white;
+        background-color: rgba(29, 29, 29, 0.8);
+    }
+    header>ul {
+        visibility: hidden;
+    }
+    header>p{
+        position: absolute;
+        margin: auto;
+        left: 100px;
+        top: 22px;
+        color: white;
+        font-family: sans-serif;
+        font-size: 22px;
+    }
+
+    #dil{
+        font-size: 87px;
+    }
+    #aboutTit{
+        position: absolute;
+        margin: auto;
+        top: 740px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #about{
+        position: absolute;
+        margin: auto;
+        top: 800px;
+        width: 90%;
+        height: 500px;
+        left: 0;
+        right: 0;
+        background: white;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    #para{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 50px;
+        font-size: 18px;
+        font-family: "Trebuchet MS";
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        color: #212324;
+    }
+    #skillTit{
+        position: absolute;
+        margin: auto;
+        top: 1350px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #skill{
+        position: absolute;
+        margin: auto;
+        top: 1400px;
+        width: 90%;
+        height: 350px;
+        right: 0;
+        left: 0;
+        background: white;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    #skill ul{
+        list-style: none;
+        position: absolute;
+        color: black;
+        width: 90%;
+        top: 15px;
+        left: -20px;
+        margin: auto;
+    }
+    #skill ul li{
+        margin: 20px;
+    }
+    .skillName{
+        font-family: Calibri;
+    }
+    .bar span:nth-child(1){
+        height: 2px;
+        float: left;
+    }
+    #projectTit{
+        position: absolute;
+        margin: auto;
+        top: 2650px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #proPane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        height: 180px;
+        top: 2750px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    .card{
+        position: absolute;
+        margin: auto;
+        background: snow;
+        width: 230px;
+        height: 180px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .card:hover{
+        transform: rotateY(180deg);
+    }
+    .front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        transform: rotateY(0deg);
+        overflow: hidden;
+    }
+    .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        overflow: hidden;
+        transform: rotateY(180deg);
+    }
+    #one{
+        left: 0;
+        right: 0;
+    }
+    #two{
+        left: 0;
+        right: 0;
+        top: 190px;
+    }
+    #three{
+        left: 0;
+        right: 0;
+        top: 380px;
+    }
+    #four{
+        left: 0;
+        right: 0;
+        top: 570px;
+    }
+    #imgKnightRider{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -15px;
+    }
+    #imgCarAnimation{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -45px;
+    }
+    .inback{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background: #eeeeee;
+        border: solid #ff253a;
+        color: #ff253a;
+    }
+    .button a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .title {
+        color: #ff253a;
+        font-size: 20px;
+    }
+    .using{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to right,red,orange);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate1 {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    .right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to bottom,red,orange);
+        animation: animate2 2s linear infinite;
+    }
+    @keyframes animate2 {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to left,red,orange);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate3 {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    .left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to top, red, orange);
+        animation: animate4 2s linear infinite;
+    }
+    @keyframes animate4 {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+    #proButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 3550px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        background: none;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #proButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #proButton:hover{
+        border: solid #ff253a;
+        color: #ff253a;
+        background: white;
+    }
+    #assTit{
+        position: absolute;
+        margin: auto;
+        top: 3650px;
+        left: 0;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: dimgray;
+    }
+    #assignments{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 180px;
+        top: 3750px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    #asspane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        display: inline-block;
+    }
+    .assCard{
+        position: relative;
+        width: 230px;
+        height: 180px;
+        color: black;
+        transform: translateY(0);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+        margin-block: 10px;
+    }
+    .face{
+        width: 230px;
+        height: 180px;
+        transition: 0.5s;
+    }
+    .face1{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(0);
+        background: white;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .assCard:hover .face1{
+        transform: translateY(-190px);
+    }
+    .face2{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: white;
+        top: 0;
+    }
+    .assCard:hover .face2{
+        transform: translateY(0);
+    }
+    #assButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 800px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        background: none;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #assButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #assButton:hover{
+        border: solid #ff253a;
+        color: #ff253a;
+        background: none;
+    }
+    #imgOne{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        width: 120%;
+    }
+    .assTit{
+        font-family: sans-serif;
+        font-size: 22px;
+        color: #ff253a;
+    }
+    .assUsing{
+        font-family: Candara;
+        font-size: 15px;
+        color: dimgrey;
+    }
+    .viewButton{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .viewButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .viewButton:hover{
+        border: solid #ff253a;
+        color: #ff253a;
+    }
+    .assTop{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,dimgrey,dimgrey);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assRight{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to bottom,dimgrey,dimgrey);
+        animation: animate2 2s linear infinite;
+    }
+    .assBottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left,dimgrey,dimgrey);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assLeft{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to top,dimgrey,dimgrey);
+        animation: animate4 2s linear infinite;
+    }
+    .empty{
+        position: relative;
+        font-size: 25px;
+        font-family: "Trebuchet MS";
+        top: 50px;
+        color: #ff253a;
+    }
+    footer{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 200px;
+        top: 4700px;
+        background: #EEEEEE;
+    }
+    footer div{
+        position: relative;
+        top: 20px;
+    }
+    footer div ul{
+        list-style: none;
+    }
+    footer div ul li{
+        position: relative;
+        display: inline;
+        left: -20px;
+        padding: 20px;
+        font-size: 20px;
+        color: dimgrey;
+    }
+    footer div ul li a{
+        color: dimgrey;
+    }
+    footer div ul li a :hover{
+        color: #04c2c9;
+    }
+    #thanx{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #4b4b4b;
+    }
+    #reserv{
+        font-family: Calibri;
+        font-size: 16px;
+        color: dimgrey;
+    }
+}
+
+/*//////////////////////////////////////////////426px-768px/////////////////////////////////////////////////*/
+@media all and (min-width: 426px) and (max-width: 768px){
+    #top {
+        top: 75px;
+    }
+    #topImg{
+        width: 100%;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+    }
+    #i {
+        top: 90px;
+        right: 115px;
+    }
+    #dil {
+        top: 140px;
+        right: 28px;
+        font-size: 87px;
+    }
+    #proHr {
+        top: 345px;
+        right: 28px;
+    }
+    #pro {
+        top: 365px;
+        right: 30px;
+    }
+    #aboutTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 530px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #about{
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #04c2c9;
+        border-image: initial;
+        position: absolute;
+        margin: auto;
+        top: 700px;
+        left: 0;
+        right: 0;
+        background: rgb(72, 66, 65);
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+        width: 90%;
+        height: 410px;
+    }
+    #para{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        font-size: 18px;
+        font-family: "Trebuchet MS";
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        color: white;
+        width: 90%;
+    }
+    #skillTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 1200px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #skill{
+        width: 90%;
+        margin: 710px auto;
+        color: white;
+    }
+    /*///////////////////////////////skills bar/////////////////////////////////////*/
+    #skill li{
+        margin: 20px 0;
+        font-family: Calibri;
+        list-style: none;
+        padding: 0;
+    }
+    .bar{
+        background: #353b48;
+        display: block;
+        height: 2px;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 3px;
+        box-shadow: 0 0 10px #04c2c9;
+    }
+    .bar span{
+        height: 2px;
+        float: left;
+        background: #04c2c9;
+    }
+    .html{
+        width: 95%;
+        animation: html 5s infinite;
+    }
+    .css{
+        width: 90%;
+        animation: css 5s infinite;
+    }
+    .js{
+        width: 50%;
+        animation: js 5s infinite;
+    }
+    .java{
+        width: 70%;
+        animation: java 5s infinite;
+    }
+    .jq {
+        width: 40%;
+        animation: jq 5s infinite;
+    }
+    @keyframes html {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 95%;
+        }
+    }
+    @keyframes css {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 90%;
+        }
+    }
+    @keyframes js {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+    @keyframes java {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 70%;
+        }
+    }
+    @keyframes jq {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 40%;
+        }
+    }
+    /*////////////////////////////////////////////////////////////////////*/
+    #projectTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 1600px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #projects {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 180px;
+        top: 1645px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    #proPane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        display: inline-block;
+    }
+    .card{
+        position: absolute;
+        margin: auto;
+        background: snow;
+        width: 230px;
+        height: 180px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .card:hover{
+        transform: rotateY(180deg);
+    }
+    .front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        transform: rotateY(0deg);
+        overflow: hidden;
+    }
+    .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        overflow: hidden;
+        transform: rotateY(180deg);
+    }
+    #one{
+        left: 0;
+        right: 0;
+    }
+    #two{
+        left: 0;
+        right: 0;
+        top: 190px;
+    }
+    #three{
+        left: 0;
+        right: 0;
+        top: 380px;
+    }
+    #four{
+        left: 0;
+        right: 0;
+        top: 570px;
+    }
+    #imgKnightRider{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -15px;
+    }
+    #imgCarAnimation{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -45px;
+    }
+    .inback{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background: #eeeeee;
+        border: solid #04c2c9;
+        color: #04c2c9;
+    }
+    .button a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .title {
+        color: #ff253a;
+        font-size: 20px;
+    }
+    .using{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to right,red,orange);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate1 {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    .right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to bottom,red,orange);
+        animation: animate2 2s linear infinite;
+    }
+    @keyframes animate2 {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to left,red,orange);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate3 {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    .left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to top, red, orange);
+        animation: animate4 2s linear infinite;
+    }
+    @keyframes animate4 {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+    #proButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 755px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #proButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #proButton:hover{
+        border: solid #04c2c9;
+        color: #04c2c9;
+    }
+    #assTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 2635px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #assignments{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 180px;
+        top: 2700px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    #asspane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        display: inline-block;
+    }
+    .assCard{
+        position: relative;
+        width: 230px;
+        height: 180px;
+        color: black;
+        transform: translateY(0);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+        margin-block: 10px;
+    }
+    .face{
+        width: 230px;
+        height: 180px;
+        transition: 0.5s;
+    }
+    .face1{
+        border-width: -1px;
+        border-style: solid;
+        border-color: #04c2c9;
+        border-image: initial;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+        background: rgb(72, 66, 65);
+        border-radius: 10px;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(0);
+    }
+    .assCard:hover .face1{
+        transform: translateY(-190px);
+    }
+    .face2{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        top: 0;
+    }
+    .assCard:hover .face2{
+        transform: translateY(0);
+    }
+    #assButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 800px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        background: none;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #assButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #assButton:hover{
+        border: solid #04c2c9;
+        color: #04c2c9;
+        background: none;
+    }
+    #imgOne{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        width: 120%;
+    }
+    .assTit{
+        font-family: sans-serif;
+        font-size: 22px;
+        color: #04c2c9;
+    }
+    .assUsing{
+        font-family: Candara;
+        font-size: 15px;
+        color: dimgrey;
+    }
+    .viewButton{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .viewButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .viewButton:hover{
+        border: solid #04c2c9;
+        color: #04c2c9;
+    }
+    .assTop{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,dimgrey,dimgrey);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assRight{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to bottom,dimgrey,dimgrey);
+        animation: animate2 2s linear infinite;
+    }
+    .assBottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left,dimgrey,dimgrey);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assLeft{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to top,dimgrey,dimgrey);
+        animation: animate4 2s linear infinite;
+    }
+    .empty{
+        position: relative;
+        font-size: 25px;
+        font-family: "Trebuchet MS";
+        top: 50px;
+        color: #04c2c9;
+    }
+    footer{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 200px;
+        top: 3630px;
+        background: black;
+    }
+    footer div{
+        position: relative;
+        top: 20px;
+    }
+    footer div ul{
+        list-style: none;
+    }
+    footer div ul li{
+        position: relative;
+        display: inline;
+        left: -20px;
+        padding: 20px;
+        font-size: 20px;
+        color: dimgrey;
+    }
+    footer div ul li a{
+        color: dimgrey;
+    }
+    footer div ul li a :hover{
+        color: #04c2c9;
+    }
+    #thanx{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #4b4b4b;
+    }
+    #reserv{
+        font-family: Calibri;
+        font-size: 16px;
+        color: dimgrey;
+    }
+}
+/*//////////////////////////////////////////////1024px-1150px/////////////////////////////////////////////////*/
+@media all and (min-width: 1024px) and (max-width: 1150px){
+    #i {
+        top: 80px;
+    }
+    #dil {
+        top: 160px;
+    }
+    #proHr {
+        top: 365px;
+    }
+    #pro {
+        top: 385px;
+    }
+    #aboutTit {
+        top: 575px;
+    }
+    #about {
+        top: 750px;
+        width: 90%;
+        height: 280px;
+        left: 0;
+        right: 0;
+    }
+    #para {
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 100px;
+    }
+    #projects {
+        width: 95%;
+    }
+    #proPane {
+        width: 100%;
+    }
+    #assignments {
+        width: 95%;
+    }
+    #asspane {
+        width: 100%;
+    }
+}
+/*//////////////////////////////////////////////769px-1024px/////////////////////////////////////////////////*/
+@media all and (min-width: 769px) and (max-width: 1024px){
+    #i{
+        top: 75px;
+        /*visibility: hidden;*/
+    }
+    #m{
+        /*visibility: hidden;*/
+    }
+    #dil{
+        top: 120px;
+        /*visibility: hidden;*/
+    }
+    #proHr{
+        top: 300px;
+        /*visibility: hidden;*/
+    }
+    #pro{
+        top: 320px;
+        /*visibility: hidden;*/
+    }
+    #aboutTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 530px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #about{
+        border-radius: 5px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: #04c2c9;
+        border-image: initial;
+        position: absolute;
+        margin: auto;
+        top: 675px;
+        width: 90%;
+        height: 300px;
+        left: 0;
+        right: 0;
+        background: rgb(72, 66, 65);
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    #para{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        top: 100px;
+        font-size: 18px;
+        font-family: "Trebuchet MS";
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        color: white;
+    }
+    #skillTit{
+        position: absolute;
+        margin: auto;
+        top: 1000px;
+        left: 0;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #skill{
+        width: 500px;
+        margin: 520px auto;
+        color: white;
+    }
+    #projectTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 1460px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #projects {
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 180px;
+        top: 1555px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    #proPane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        display: inline-block;
+    }
+    .card{
+        position: absolute;
+        margin: auto;
+        background: snow;
+        width: 230px;
+        height: 180px;
+        transform-style: preserve-3d;
+        transition: all 0.5s ease;
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .card:hover{
+        transform: rotateY(180deg);
+    }
+    .front{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        transform: rotateY(0deg);
+        overflow: hidden;
+    }
+    .back{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        backface-visibility: hidden;
+        overflow: hidden;
+        transform: rotateY(180deg);
+    }
+    #one{
+        left: 0;
+        right: 0;
+    }
+    #two{
+        left: 0;
+        right: 0;
+        top: 190px;
+    }
+    #three{
+        left: 0;
+        right: 0;
+        top: 380px;
+    }
+    #four{
+        left: 0;
+        right: 0;
+        top: 570px;
+    }
+    #imgKnightRider{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -15px;
+    }
+    #imgCarAnimation{
+        position: absolute;
+        margin: auto;
+        top: 0;
+        height: 100%;
+        bottom: 0;
+        left: -45px;
+    }
+    .inback{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .button{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        background: white;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .button:hover{
+        background: #eeeeee;
+        border: solid #04c2c9;
+        color: #04c2c9;
+    }
+    .button a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .title {
+        color: #ff253a;
+        font-size: 20px;
+    }
+    .using{
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+    .top{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to right,red,orange);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate1 {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(100%);
+        }
+    }
+    .right{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to bottom,red,orange);
+        animation: animate2 2s linear infinite;
+    }
+    @keyframes animate2 {
+        0%{
+            transform: translateY(-100%);
+        }
+        100%{
+            transform: translateY(100%);
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: linear-gradient(to left,red,orange);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    @keyframes animate3 {
+        0%{
+            transform: translateX(100%);
+        }
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+    .left{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(to top, red, orange);
+        animation: animate4 2s linear infinite;
+    }
+    @keyframes animate4 {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(-100%);
+        }
+    }
+    #proButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 755px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #proButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #proButton:hover{
+        border: solid #04c2c9;
+        color: #04c2c9;
+    }
+    #assTit{
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        margin: auto;
+        top: 2455px;
+        font-size: 30px;
+        font-family: "Viner Hand ITC";
+        color: dimgray;
+    }
+    #assignments{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 180px;
+        top: 2525px;
+        color: dimgray;
+        right: 0;
+        left: 0;
+    }
+    #asspane{
+        position: absolute;
+        margin: auto;
+        width: 90%;
+        left: 0;
+        right: 0;
+        display: inline-block;
+    }
+    .assCard{
+        position: relative;
+        width: 230px;
+        height: 180px;
+        color: black;
+        transform: translateY(0);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+        margin-block: 10px;
+    }
+    .face{
+        width: 230px;
+        height: 180px;
+        transition: 0.5s;
+    }
+    .face1{
+        border-width: -1px;
+        border-style: solid;
+        border-color: #04c2c9;
+        border-image: initial;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+
+        position: absolute;
+        margin: auto;
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        transform: translateY(0);
+        border-radius: 10px;
+        box-shadow: 1px 1px 6px 0px rgba(103, 103, 103, 0.3);
+    }
+    .assCard:hover .face1{
+        transform: translateY(-190px);
+    }
+    .face2{
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        border-radius: 10px;
+        top: 0;
+    }
+    .assCard:hover .face2{
+        transform: translateY(0);
+    }
+    #assButton{
+        cursor: pointer;
+        position: absolute;
+        margin: auto;
+        width: 180px;
+        height: 45px;
+        top: 760px;
+        text-align: center;
+        right: 0;
+        left: 0;
+        font-family: Candara;
+        font-size: 17px;
+        color: #696969;
+        background: none;
+        transition: 0.3s;
+        border: 3px solid #696969;
+    }
+    #assButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    #assButton:hover{
+        border: solid #04c2c9;
+        color: #04c2c9;
+        background: none;
+    }
+    #imgOne{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        top: 0;
+        width: 120%;
+    }
+    .assTit{
+        font-family: sans-serif;
+        font-size: 22px;
+        color: #04c2c9;
+
+    }
+    .assUsing{
+        font-family: Candara;
+        font-size: 15px;
+        color: dimgrey;
+    }
+    .viewButton{
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 100px;
+        height: 40px;
+        border: 3px solid dimgray;
+        color: dimgray;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .viewButton a{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+    .viewButton:hover{
+        border: solid #04c2c9;
+        color: #04c2c9;
+    }
+    .assTop{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to right,dimgrey,dimgrey);
+        animation: animate1 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assRight{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to bottom,dimgrey,dimgrey);
+        animation: animate2 2s linear infinite;
+    }
+    .assBottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: linear-gradient(to left,dimgrey,dimgrey);
+        animation: animate3 2s linear infinite;
+        animation-delay: 1s;
+    }
+    .assLeft{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 3px;
+        height: 100%;
+        background: linear-gradient(to top,dimgrey,dimgrey);
+        animation: animate4 2s linear infinite;
+    }
+    .empty{
+        position: relative;
+        font-size: 25px;
+        font-family: "Trebuchet MS";
+        top: 50px;
+        color: #04c2c9;
+
+    }
+    footer{
+        position: absolute;
+        margin: auto;
+        width: 100%;
+        height: 200px;
+        top: 3400px;
+        background: black;
+    }
+    footer div{
+        position: relative;
+        top: 20px;
+    }
+    footer div ul{
+        list-style: none;
+    }
+    footer div ul li{
+        position: relative;
+        display: inline;
+        left: -20px;
+        padding: 20px;
+        font-size: 20px;
+        color: dimgrey;
+    }
+    footer div ul li a{
+        color: dimgrey;
+    }
+    footer div ul li a :hover{
+        color: #04c2c9;
+    }
+    #thanx{
+        font-family: sans-serif;
+        font-size: 18px;
+        color: #4b4b4b;
+    }
+    #reserv{
+        font-family: Calibri;
+        font-size: 16px;
+        color: dimgrey;
+    }
+}
+
+
+

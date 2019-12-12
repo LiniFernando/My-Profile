@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="37481dc2-afa4-4f52-8a07-4dfe86f0ac5c" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1212768401">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="41" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.107" value="1" />
+          <entry key="project.open.time.108" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.126" value="1" />
+          <entry key="project.open.time.128" value="1" />
+          <entry key="project.open.time.13" value="3" />
+          <entry key="project.open.time.133" value="1" />
+          <entry key="project.open.time.135" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.4" value="8" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.54" value="3" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.66" value="3" />
+          <entry key="project.open.time.67" value="2" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.open.time.72" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.77" value="2" />
+          <entry key="project.open.time.78" value="1" />
+          <entry key="project.open.time.80" value="1" />
+          <entry key="project.open.time.81" value="1" />
+          <entry key="project.open.time.82" value="2" />
+          <entry key="project.open.time.89" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.open.time.97" value="3" />
+          <entry key="project.opened" value="84" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="51" />
+          <entry key="html" value="80" />
+          <entry key="java" value="1" />
+          <entry key="jpg" value="37" />
+          <entry key="js" value="39" />
+          <entry key="map" value="10" />
+          <entry key="png" value="10" />
+          <entry key="rnc" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="51" />
+          <entry key="HTML" value="80" />
+          <entry key="Image" value="47" />
+          <entry key="JAVA" value="1" />
+          <entry key="JavaScript" value="39" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SourceMap" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="6740" />
+          <entry key="html" value="14658" />
+          <entry key="js" value="2031" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="6740" />
+          <entry key="HTML" value="14658" />
+          <entry key="JavaScript" value="2031" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/new.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1887">
+              <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/assets/css/newCss.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8364">
+              <caret line="492" column="43" selection-start-line="492" selection-start-column="43" selection-end-line="492" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/pos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4641">
+              <caret line="273" selection-start-line="273" selection-end-line="273" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/db/DB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Customer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/customerController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/itemController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pp/projects/JSQueue/jsQueue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-766">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pp/projects/Car Animation/media.css" />
+        <option value="$PROJECT_DIR$/pp/projects/Furniture/furniture.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/art.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/tech.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/commerce.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/maths.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/science.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/practical.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/pastPaper.html" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/js/code.jquery.com/jquery-3.3.1.slim.min.js" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/Item.html" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/customer.html" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/order.html" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/home.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/modelPaper.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/tutorial.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/css/style.css" />
+        <option value="$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/js/popper.min.js" />
+        <option value="$PROJECT_DIR$/pp/projects/Tutorials/note.html" />
+        <option value="$PROJECT_DIR$/pp/index.html" />
+        <option value="$PROJECT_DIR$/pp/AYE.html" />
+        <option value="$PROJECT_DIR$/pp/first.css" />
+        <option value="$PROJECT_DIR$/pp/media.css" />
+        <option value="$PROJECT_DIR$/pp/newCss.css" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/DashBordController.js" />
+        <option value="$PROJECT_DIR$/pp/projects/JSKnightRider/jsKnightRider.html" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Customer.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/db/DB.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Item.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/pos.html" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/orderController.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/OrderItem.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Order.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/orderItemController.js" />
+        <option value="$PROJECT_DIR$/pp/assets/css/newCss.css" />
+        <option value="$PROJECT_DIR$/pp/style.css" />
+        <option value="$PROJECT_DIR$/pp/viewAll.html" />
+        <option value="$PROJECT_DIR$/pp/viewAllMedia.css" />
+        <option value="$PROJECT_DIR$/pp/assets/css/newmedia.css" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/memory.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/gameHome.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/gameCss.css" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/game.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/level2.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/testGame.html" />
+        <option value="$PROJECT_DIR$/pp/projects/Game/level1.html" />
+        <option value="$PROJECT_DIR$/pp/new.html" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/customerController.js" />
+        <option value="$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/itemController.js" />
+        <option value="$PROJECT_DIR$/pp/projects/JSQueue/jsQueue.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="732" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>CssInvalidPropertyValue</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="JSQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="notRefeshing POS System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="notRefeshing POS System" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="notRefeshing POS System" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Profile" type="462c0819:PsiDirectoryNode" />
+              <item name="pp" type="462c0819:PsiDirectoryNode" />
+              <item name="projects" type="462c0819:PsiDirectoryNode" />
+              <item name="notRefeshing POS System" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576133606344" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Document\Profile\pp\projects\Game\img" />
+      <recent name="F:\Document\Profile\pp\projects\Game\audio" />
+      <recent name="F:\Document\Profile\pp\assets\css" />
+      <recent name="F:\Document\Profile\pp\assets\js" />
+      <recent name="F:\Document\Profile\pp\assets\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Document\Profile\pp\assets\img" />
+      <recent name="F:\Document\Profile\pp\assets\css" />
+      <recent name="F:\Document\Profile\pp\projects\Furniture\img" />
+      <recent name="F:\Document\Profile\pp\projects" />
+      <recent name="F:\Document\Profile\pp\projects\POSSystem" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.pos.html">
+    <configuration name="gameHome.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Profile/pp/projects/Game/gameHome.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="level1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Profile/pp/projects/Game/level1.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="new.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Profile/pp/new.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="pos.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Profile/pp/projects/notRefeshing POS System/pos.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="testGame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Profile/pp/projects/Game/testGame.html">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.level1.html" />
+      <item itemvalue="JavaScript Debug.testGame.html" />
+      <item itemvalue="JavaScript Debug.gameHome.html" />
+      <item itemvalue="JavaScript Debug.new.html" />
+      <item itemvalue="JavaScript Debug.pos.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.pos.html" />
+        <item itemvalue="JavaScript Debug.gameHome.html" />
+        <item itemvalue="JavaScript Debug.new.html" />
+        <item itemvalue="JavaScript Debug.level1.html" />
+        <item itemvalue="JavaScript Debug.testGame.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="37481dc2-afa4-4f52-8a07-4dfe86f0ac5c" name="Default Changelist" comment="" />
+      <created>1568112223620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568112223620</updated>
+      <workItem from="1568112229503" duration="2993000" />
+      <workItem from="1568279891653" duration="5185000" />
+      <workItem from="1568298843370" duration="7442000" />
+      <workItem from="1568351407552" duration="2575000" />
+      <workItem from="1568355603700" duration="14857000" />
+      <workItem from="1568400803784" duration="8491000" />
+      <workItem from="1568490452429" duration="275000" />
+      <workItem from="1568530809211" duration="9231000" />
+      <workItem from="1568544554412" duration="5398000" />
+      <workItem from="1568563558953" duration="131000" />
+      <workItem from="1568570788345" duration="3636000" />
+      <workItem from="1568604027702" duration="21636000" />
+      <workItem from="1568694068159" duration="17940000" />
+      <workItem from="1568776847068" duration="8997000" />
+      <workItem from="1568825022448" duration="24155000" />
+      <workItem from="1568900134947" duration="7691000" />
+      <workItem from="1568926318770" duration="3154000" />
+      <workItem from="1568963356203" duration="5592000" />
+      <workItem from="1569000791400" duration="1526000" />
+      <workItem from="1569071470887" duration="2957000" />
+      <workItem from="1569324953893" duration="4867000" />
+      <workItem from="1569344356827" duration="6627000" />
+      <workItem from="1569382353511" duration="2846000" />
+      <workItem from="1569425182209" duration="425000" />
+      <workItem from="1569438940381" duration="1978000" />
+      <workItem from="1569468121538" duration="6567000" />
+      <workItem from="1569659219495" duration="1174000" />
+      <workItem from="1569701072032" duration="2303000" />
+      <workItem from="1569741614758" duration="3472000" />
+      <workItem from="1569746080047" duration="27382000" />
+      <workItem from="1569913655846" duration="619000" />
+      <workItem from="1569999248177" duration="21982000" />
+      <workItem from="1570169357312" duration="602000" />
+      <workItem from="1570174963321" duration="11070000" />
+      <workItem from="1570345872682" duration="798000" />
+      <workItem from="1570520513706" duration="3390000" />
+      <workItem from="1570688423409" duration="16390000" />
+      <workItem from="1570765147626" duration="578000" />
+      <workItem from="1571040720922" duration="21074000" />
+      <workItem from="1571240191356" duration="3220000" />
+      <workItem from="1571293607420" duration="2278000" />
+      <workItem from="1571326059073" duration="3294000" />
+      <workItem from="1571564804621" duration="800000" />
+      <workItem from="1571578415756" duration="7885000" />
+      <workItem from="1571642358770" duration="854000" />
+      <workItem from="1572494758568" duration="2049000" />
+      <workItem from="1572580180240" duration="1174000" />
+      <workItem from="1573097671437" duration="16561000" />
+      <workItem from="1573510116821" duration="2732000" />
+      <workItem from="1573537992596" duration="15309000" />
+      <workItem from="1573632366077" duration="10360000" />
+      <workItem from="1573675106542" duration="12218000" />
+      <workItem from="1573701739555" duration="8297000" />
+      <workItem from="1573756619765" duration="1208000" />
+      <workItem from="1573893914446" duration="1040000" />
+      <workItem from="1573970676609" duration="11941000" />
+      <workItem from="1574016207554" duration="15065000" />
+      <workItem from="1574106487697" duration="3804000" />
+      <workItem from="1574307044414" duration="7359000" />
+      <workItem from="1574680396945" duration="450000" />
+      <workItem from="1574746899336" duration="7271000" />
+      <workItem from="1574838153855" duration="10970000" />
+      <workItem from="1574875211718" duration="7613000" />
+      <workItem from="1574998378939" duration="9099000" />
+      <workItem from="1575013420041" duration="8416000" />
+      <workItem from="1575036332392" duration="15470000" />
+      <workItem from="1575083271533" duration="1172000" />
+      <workItem from="1575104693961" duration="9633000" />
+      <workItem from="1575135944000" duration="1720000" />
+      <workItem from="1575185458095" duration="190000" />
+      <workItem from="1575188286517" duration="10160000" />
+      <workItem from="1575222386710" duration="4125000" />
+      <workItem from="1575271831524" duration="8730000" />
+      <workItem from="1575437683987" duration="14810000" />
+      <workItem from="1575530335620" duration="3218000" />
+      <workItem from="1575626227683" duration="2541000" />
+      <workItem from="1575688587608" duration="828000" />
+      <workItem from="1575689715229" duration="584000" />
+      <workItem from="1575722967492" duration="23000" />
+      <workItem from="1575723076544" duration="59000" />
+      <workItem from="1575723223754" duration="107000" />
+      <workItem from="1575885592271" duration="2066000" />
+      <workItem from="1576121120618" duration="11263000" />
+      <workItem from="1576136323726" duration="848000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="546856000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2831424" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2831424" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pp/first.css" />
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/light-purple-flowers-1080p-HD_wallpapers.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/div's position.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/Pos.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/photo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/47747.jpg" />
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/face.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/2019-06-22-17-20-07-887 (4).jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/Movies &amp; TV 12_09_2019 10_52_09 PM.png" />
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/myFace.jpg" />
+    <entry file="file://$PROJECT_DIR$/pp/assets/img/ppic.jpg" />
+    <entry file="file://$PROJECT_DIR$/pp/assets/js/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/DashBordController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="56" column="3" selection-start-line="56" selection-start-column="3" selection-end-line="56" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/js/abc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/js/code.jquery.com/jquery-3.3.1.slim.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/js/bootstrap.bundle.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/js/bootstrap.js.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/bootstrap-grid.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/bootstrap-reboot.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/OrderItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/orderItemController.js" />
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/orderController.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/media.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="303" column="22" lean-forward="true" selection-end-line="446" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/profileCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/KnightRider/knightRider.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/JSKnightRider/jsKnightRider.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="73" selection-start-line="73" selection-end-line="73" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/viewAll.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/viewAllMedia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27846">
+          <caret line="1638" column="16" selection-start-line="1638" selection-start-column="16" selection-end-line="1638" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Tutorials/tutorial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="143" column="7" selection-start-line="53" selection-end-line="143" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/POSSystem with bootstrap/customer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="51" column="17" lean-forward="true" selection-start-line="151" selection-end-line="152" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Game/memory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="198" column="72" selection-start-line="198" selection-start-column="72" selection-end-line="198" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Game/level2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="466" column="7" selection-start-line="466" selection-start-column="7" selection-end-line="466" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Game/testGame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="75" selection-start-line="75" selection-end-line="84" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Game/gameCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="176" column="4" selection-start-line="176" selection-start-column="4" selection-end-line="179" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Game/level1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="198" column="28" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3197">
+          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/newmedia.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/Game/gameHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="118" column="45" lean-forward="true" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1887">
+          <caret line="111" column="43" selection-start-line="111" selection-start-column="43" selection-end-line="111" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/assets/css/newCss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8364">
+          <caret line="492" column="43" selection-start-line="492" selection-start-column="43" selection-end-line="492" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/pos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4641">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/db/DB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/model/Customer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/customerController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/notRefeshing POS System/controller/itemController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="166" column="51" selection-start-line="166" selection-start-column="51" selection-end-line="166" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/JSQueue/assest/jquery-3.4.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pp/projects/JSQueue/jsQueue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-766">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

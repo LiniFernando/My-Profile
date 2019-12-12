@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS</title>
+    <link rel="stylesheet" href="css/posCSS.css">
+
+    <style>
+        section>div:first-child{
+            display: flex;
+        }
+        .Cform-control {
+            /*display: block;
+            width: 97%;
+            height: calc(1.5em + .75rem + 2px);
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;*/
+
+            position: relative;
+            display: inline-block;
+            width: 80%;
+            height: 45px;
+            outline: none;
+            font-family: Roboto;
+            font-size: 20px;
+            color: #707070;
+            border: none;
+            margin: 15px 0 0 15px;
+            padding: 0 0 2px 20px;
+            border-bottom: 1.5px solid #6b90bd;
+        }
+        #btnRegister{
+            background-color: green;
+        }
+        #btnUpdate{
+            background-color: #2c98f0;
+        }
+        #btnDel{
+            background-color: red;
+        }
+        #btn{
+            display: inline-grid;
+            margin-top: 10px;
+        }
+        #tblDiv {
+            width: 95%;
+            height: 40%;
+            position: absolute;
+            overflow: auto;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <ul>
+        <li><b><a href="posSystem.html">Home</a></b></li>
+        <li><b><a href="Customer.html">Customer</a></b></li>
+        <li><b><a href="Item.html">Item</a></b></li>
+        <li><b><a href="placeOrder.html">Orders</a></b></li>
+        <li><b><a href="#co">Contact</a></b></li>
+    </ul>
+</header>
+<main>
+    <section>
+        <div>
+            <form>
+                <input type="text" placeholder="Item Code" class="Cform-control ">
+                <input type="text" placeholder="Item Name" class="Cform-control ">
+                <input type="text" placeholder="Price" class="Cform-control ">
+                <input type="text" placeholder="Qty" class="Cform-control " >
+            </form>
+
+            <div id="btn">
+                <button  id="btnRegister" class="btnPO" type="submit">Register</button>
+                <button id="btnUpdate" class="btnPO" type="submit">Update</button>
+                <button id="btnDel" class="btnPO" type="submit">Delete</button>
+            </div>
+        </div>
+        <div id="tblDiv">
+            <table>
+                <thead>
+                <td>Item Code</td>
+                <td>Item Name</td>
+                <td>Price</td>
+                <td>QTY</td>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>I001</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>I002</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>I003</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>I004</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>I005</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                <tr>
+                    <td>I006</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

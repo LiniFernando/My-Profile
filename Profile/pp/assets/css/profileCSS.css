@@ -1,0 +1,260 @@
+body{
+
+}
+body > header {
+    background-color: #305076a3;
+    width: 100%;
+    height: 10vh;
+    box-shadow: 0 -40px 25px 33px white;
+    position: fixed;
+    z-index: 12;
+    margin: auto;
+}
+
+header > ul {
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+
+header > ul > li {
+    display: inline;
+    font-size: 30px;
+    font-family: "Agency FB";
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: darkturquoise;
+}
+
+body>main>section{
+    position: relative;
+}
+section>div{
+    position: relative;
+    width: 100%;
+    box-shadow: 0px 0px 220px -106px white;
+    z-index: 1;
+}
+section>div:first-child {
+    padding-top: 10vh;
+    height: 100vh;
+}
+body>main>section>div:first-child>img{
+    margin-top: 5vw;
+    margin-left: 41vw;
+    filter: brightness(0.7);
+    height: 50vh;
+    border-radius: 100%;
+}
+body>main>section>div:first-child>h1{
+    text-align: center;
+    font-size: 8vh;
+    font-family: "Trebuchet MS";
+    color: white;
+    animation: text 3s 1;
+}
+mark{
+    animation: text 3s 1;
+}
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+body>main>section>div:first-child>h3{
+    text-align: center;
+    font-size: 4vh;
+    font-family: "AvantGarde Bk BT";
+    color: darkcyan;
+    animation: text 3s 1;
+}
+section>div:first-child>i{
+    color: darkturquoise;
+    font-size: 7vh;
+    margin-left: 10vw;
+}
+
+.fa-facebook{
+    margin-left: 27vw;
+}
+div>h1{
+    font-family: "BankGothic Md BT";
+    text-align: center;
+    font-size: 7vh;
+    color: white;
+}
+body>main>section>div:nth-child(2)>div{
+    display: flex;
+}
+#a_image{
+    margin-left: 20vw;
+    border-radius: 10%;
+    width: 19vw
+}
+body>main>section>div:nth-child(3)>div{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.Slider{
+    background-color: #eeeeee;
+    border-radius: 10px;
+    width: 50vw;
+    margin: 0;
+}
+.InSlide{
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+}
+#tblSkill>tbody>tr>td{
+    color: white;
+}
+.as{
+    background: #305076a3;
+    height: 45vh;
+    width: 20vw;
+    margin: 2vw;
+    border-style: solid;
+    cursor: pointer;
+    /*transform: skew(2deg,2deg);*/
+
+}
+
+.as:hover{
+    color: darkturquoise;
+}
+.as>img{
+    height: 35vh;
+    width: 20vw;
+}
+.as>h4{
+    color: #eeeeee;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Droid Sans Mono Dotted";
+    margin: 0;
+}
+#as1{
+    box-shadow: 0px 0px 200px 0px white;
+}
+#as2{
+    box-shadow: 0px 0px 200px 0px white;
+}
+#as3{
+    box-shadow: 0px 0px 200px 0px white;
+}
+#About{
+    padding: 3vw;
+}
+
+p{
+    color: white;
+    font-family: Arial;
+ }
+p>table{
+    color: white;
+}
+section>div:nth-child(4)>div>div:first-child{
+    width: 35vw;
+    text-align: right;
+    color: white;
+    margin: 0;
+}
+#tblSkill{
+    margin-left: 25vw
+}
+section>div:nth-child(4)>div>div:last-child{
+    width: 50vw;
+    text-align: center;
+    margin: 0;
+}
+div>h5 {
+    color: white;
+    text-align: center;
+    padding-left: 25vw;
+}
+form {
+    display: block;
+    margin-top: 0em;
+    margin-left: 20vw;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    background: #f2f3f7;
+    height: 35px;
+    width: 40vw;
+    font-size: 16px;
+}
+#message {
+    height: 260px;
+    width: 40vw;
+}
+.btn-primary {
+    background: #2c98f0;
+    color: #fff;
+    border: 2px solid #2c98f0;
+}
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    padding: 8px 15px !important;
+}
+body>main>section>div:last-child>div{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.fas {
+    color: darkturquoise;
+    font-size: xx-large;
+}
+#final>h3{
+    color: white;
+    font-size: 4vh;
+}
+
+footer{
+    background-color: #17171dc4;
+    width: 100%;
+    height: 25px;
+    box-shadow: 0 30px 25px 33px white;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+
+}
+footer>h5 {
+    margin: 0;
+    text-align: center;
+    top: 4px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+

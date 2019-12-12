@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>POS System</title>
+    <link rel="stylesheet" href="css/posCSS.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/FontAwesome/css/all.css">
+
+
+    <style>
+        #bigDIV{
+            display: flex;
+            height: 25vh;
+            width: 80vw;
+        }
+        #bigDIV>div{
+            height: 25vh;
+            width: 22vw;
+            margin-left: 5vw;
+        }
+        #bigDIV>div>h2{
+            color: white;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        #bigDIV>div>i{
+            color: white;
+            font-size: 6vh;
+            margin-left: 7vw;
+        }
+
+    </style>
+
+</head>
+<body>
+<header>
+    <!--<img src="img/download (2).jpg" height="168" width="222"/>-->
+    <ul>
+        <li><b><a href="posSystem.html">Home</a></b></li>
+        <li><b><a href="Customer.html">Customer</a></b></li>
+        <li><b><a href="Item.html">Item</a></b></li>
+        <li><b><a href="placeOrder.html">Orders</a></b></li>
+        <li><b><a href="#co">Contact</a></b></li>
+    </ul>
+</header>
+<main>
+    <section>
+        <h2 style="text-align: center; color: blue">Sales and Purchase Overview</h2>
+        <div id="bigDIV">
+            <div style="background-color: green;margin-left: 20vw;">
+                <h2>Sold Items:</h2>
+                <h2>1000</h2>
+                <i class="fas fa-shopping-bag"></i>
+            </div>
+            <div style="background-color: red">
+                <h2>Purchased Items:</h2>
+                <h2>1234</h2>
+                <i class="fas fa-money-check-alt"></i>
+            </div>
+            <div style="background-color:blue ">
+                <h2>Customers:</h2>
+                <h2>512</h2>
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+        <div style="display: flex">
+            <div>
+                <h2 style="color: blue; width: 50vw">Yearly Report:</h2>
+                <img src="img/line-chart.png" height="166" width="304"/>
+            </div>
+            <div>
+                <h2 style="color: blue">Recived & Paid:</h2>
+                <img src="img/images.png" height="166" width="304"/>
+            </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>

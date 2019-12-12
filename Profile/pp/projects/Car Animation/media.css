@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.sky {
+    background: url("img/sky.jpg");
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.road{
+    background: url("img/road.jpg");
+    width: 400%;
+    height: 50vh;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 0;
+    animation: build_move 10s infinite;
+}
+
+.building{
+    background: url(img/city.png);
+    width: 400%;
+    height: 254px;
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 75px;
+    animation: build_move 10s infinite;
+}
+
+.car img:first-child{
+    width: 29vw;
+    position: absolute;
+    margin: auto;
+    top: 331px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.car img:nth-child(2){
+    width: 6vw;
+    position: absolute;
+    margin: auto;
+    top: 414px;
+    bottom: 0;
+    right: 249px;
+    left: 0;
+    animation: car 10s infinite;
+}
+.car img:nth-child(3){
+    width: 6vw;
+    position: absolute;
+    margin: auto;
+    top: 419px;
+    bottom: 0;
+    right: 0;
+    left: 225px;
+    animation: car 10s infinite;
+
+}
+
+
+@keyframes build_move {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-75%);
+    }
+}
+
+@keyframes car {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+/*////////////////////////////////////////////media//////////////////////////////////*/
+@media all and (max-width:320px ){
+
+}
+@media all and (min-width: 1141px) and (max-width: 2560px){
+
+}
